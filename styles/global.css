@@ -42,6 +42,7 @@ a:hover {
     max-width: var(--width-container);
     padding-inline: 32px;
     margin-inline: auto;
+    border: 1px solid red;
 }
 
 .bg-surface-color {

@@ -1,0 +1,49 @@
+
+header {
+    font: var(--text-md);
+    padding-block: 32px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header ul {
+    list-style: none;
+}
+
+#profile {
+ width: 592px;
+ display: flex;
+ gap: 32px;
+ align-items: center;
+
+}
+
+#profile > div {
+    width: 384px;
+}
+
+#profile h1 {
+    font: var(--text-lg);
+    color: var( --text-color-primary);
+    margin-bottom: 8px;
+}
+
+#info {
+    padding-block: 68px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+#info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
